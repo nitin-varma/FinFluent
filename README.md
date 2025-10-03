@@ -9,7 +9,7 @@ FinFluent is an intelligent personal finance management application that combine
 - **Interactive Dashboard**: Visualize your spending patterns and financial health
 - **Profile Management**: Set and track financial goals and personal details
 - **RAG-Powered Insights**: Get context-aware financial advice using Retrieval-Augmented Generation
-- **Responsive Design**: Works seamlessly on both desktop and mobile devices
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 
 ## 🎯 Key Technologies
 
@@ -22,6 +22,7 @@ FinFluent is an intelligent personal finance management application that combine
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.8 or higher
 - OpenAI API key
 - (Optional) Perplexity API key for enhanced web search
@@ -29,59 +30,69 @@ FinFluent is an intelligent personal finance management application that combine
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/finflo.git
    cd finflo
    ```
 
 2. **Set up a virtual environment** (recommended)
+
    ```bash
    # Windows
    python -m venv venv
    .\venv\Scripts\activate
-   
+
    # macOS/Linux
    python3 -m venv venv
    source venv/bin/activate
    ```
 
 3. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Configure environment variables**
+
    ```bash
    # Copy the example file
    cp .env.example .env
    ```
-   
+
    Edit the `.env` file and add your API keys:
+
    ```
    OPENAI_API_KEY=your_openai_api_key_here
    PERPLEXITY_API_KEY=your_perplexity_api_key_here  # Optional
    ```
-   
+
    Get your API keys:
+
    - [OpenAI API Key](https://platform.openai.com/api-keys)
    - [Perplexity API Key](https://www.perplexity.ai/) (optional)
 
 ## 🖥️ Running the Application
 
 ### Web Interface (Recommended)
+
 ```bash
 streamlit run app.py
 ```
+
 The application will be available at `http://localhost:8501`
 
 ### Key Features in Action
 
 1. **Dashboard**
+
    - View your financial overview at a glance
    - Track income, expenses, and savings
    - Visualize spending patterns with interactive charts
 
 2. **AI Assistant**
+
    - Ask financial questions in natural language
    - Get personalized advice based on your financial profile
    - Example queries:
